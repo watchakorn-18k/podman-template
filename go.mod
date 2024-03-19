@@ -2,7 +2,10 @@ module gihub.com/watchakorn-18k/podman-template
 
 go 1.22.1
 
-require github.com/gofiber/fiber/v2 v2.52.2
+require (
+	github.com/gofiber/fiber/v2 v2.52.2
+	github.com/joho/godotenv v1.5.1
+)
 
 require (
 	github.com/andybalholm/brotli v1.0.5 // indirect
