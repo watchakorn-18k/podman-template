@@ -137,7 +137,7 @@ podman run -dt -p 8000:3000 api
 
 - เช็คการทำงาน VM ด้วย `podman ps`
 
-- หรือสามารถรวมคำสั่งในบรรทัดเดียว `podman build -t api . && podman run -dt -p 8000:3000 --name=api-test api`
+- หรือสามารถรวมคำสั่งในบรรทัดเดียว `podman build -t api . && podman run -dt -p 8000:3000 --name=api-test api` แนะนำแค่รันครั้งแรกเท่านั้น ถ้าเคย build แล้วไม่มีการแก้ไขอะไรในโค้ดก็ใช้ run ธรรมดาได้เลยไม่ต้อง build เราจะ build กรณี มีการแก้ไขโค้ดพวกนี้
 
 - `podman stats` ใช้เพื่อดูสถิติการใช้ทรัพยากรณ์ของเครื่อง แต่ต้อง `podman machine set --rootful` ไม่งั้นสิทธิ์จะไม่ถึง
 
