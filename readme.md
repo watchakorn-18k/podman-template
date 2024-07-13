@@ -14,6 +14,8 @@ winget install podman
 
 ![alt text](Image/2image.png)
 
+- ในการติดตั้งครั้งแรกจำเป็นต้อง `restart` เครื่องหนึ่งรอบ และอาจะต้องไปเปิด virtualization ที่ bios แต่ละ mainboard จะไม่เหมือนกันลองค้นหาวิธีใน google ดูเอานะ 
+
 ## ทดสอบ
 
 ![alt text](Image/1image.png)
